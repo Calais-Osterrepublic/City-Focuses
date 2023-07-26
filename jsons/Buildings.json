@@ -34,15 +34,15 @@
             	"Destroyed when the city is captured",
 		"Can be purchased for [500] [Culture] [in all cities]",
 		"[+2 Food, -2 Gold] from all [Food] buildings",
-	        "[+5]% [Food] [in all cities] <before the [Industrial Era]>",
+	        "[+5]% [Food] [in all cities] <before the [Industrial era]>",
 		"[-25]% [Food] [in this city] <after adopting [Autocracy]>",
 		"[-25]% [Food] [in this city] <after adopting [Order]>",
 	    	"[-25]% [Food] [in this city] <after adopting [Freedom]>",
 	        "[+5 Food] [in all cities] <after adopting [Order]>",
 	        "[+1] Unit Supply per [2] population [in this city] <after adopting [Autocracy]>",
-	        "[+3 Food] <in cities with a [Focus: Grow our Wealth]> <after adopting [Freedom]>",
-	    	"[+3 Food] <in cities with a [Focus: Wonder Construction]> <after adopting [Freedom]>",
-		"[+3 Food] <in cities with a [Focus: Think Tank]> <after adopting [Freedom]>"
+	        "[+3 Food] <in cities with a [Focus on Growing our Wealth]> <after adopting [Freedom]>",
+	    	"[+3 Food] <in cities with a [Focus on Wonder Construction]> <after adopting [Freedom]>",
+		"[+3 Food] <in cities with a [Focus on Social Exchange]> <after adopting [Freedom]>"
         ]
     },
     {
