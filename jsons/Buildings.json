@@ -1,0 +1,62 @@
+[
+  {
+  		"name": "Focus on Military Production",
+  		"cost": 500,
+      "requiredTech": "Civil Service",
+  		"uniques": [
+  			"Only available <in cities without a [Focus on]>",
+  			"Destroyed when the city is captured",
+        "Can be purchased for [500] [Culture] [in all cities]"
+  		]
+  },
+  {
+  		"name": "Focus on Wonder Construction",
+  		"cost": 500,
+      "requiredTech": "Civil Service",
+  		"uniques": [
+  			"Only available <in cities without a [Focus on]>",
+  			"Destroyed when the city is captured",
+        "Can be purchased for [500] [Culture] [in all cities]"
+  		]
+  },
+  {
+  		"name": "Focus on Feeding the People",
+  		"cost": 500,
+      "requiredTech": "Civil Service",
+  		"uniques": [
+  			"Only available <in cities without a [Focus on]>",
+  			"Destroyed when the city is captured",
+        "Can be purchased for [500] [Culture] [in all cities]"
+  		]
+  },
+  {
+  		"name": "Focus on Growing our Wealth",
+  		"cost": 500,
+      "requiredTech": "Civil Service",
+  		"uniques": [
+  			"Only available <in cities without a [Focus on]>",
+  			"Destroyed when the city is captured",
+        "Can be purchased for [500] [Culture] [in all cities]"
+  		]
+  },
+  {
+  		"name": "Focus on National Production",
+  		"cost": 500,
+      "requiredTech": "Civil Service",
+  		"uniques": [
+  			"Only available <in cities without a [Focus on]>",
+  			"Destroyed when the city is captured",
+        "Can be purchased for [500] [Culture] [in all cities]"
+  		]
+  },
+  {
+  		"name": "Focus on Social Exchange",
+  		"cost": 500,
+      "requiredTech": "Civil Service",
+  		"uniques": [
+  			"Only available <in cities without a [Focus on]>",
+  			"Destroyed when the city is captured",
+        "Can be purchased for [500] [Culture] [in all cities]"
+  		]
+  },
+]
