@@ -4,12 +4,14 @@
         "cost":200,
         "requiredTech":"Civil Service",
         "uniques":[
-            "Only available <in cities without a [Focus on Wonder Construction]>",
-            "Destroyed when the city is captured",
-            "Can be purchased for [50] [Culture] [in all cities]",
+            	"Only available <in cities without a [Focus on Wonder Construction]>",
+            	"Destroyed when the city is captured",
+            	"Can be purchased for [50] [Culture] [in all cities]",
+		"Unsellable <for [20] turns>",
+	
             
-            "[+50]% Production when constructing [Military] units [in this city]",
-            "[-100]% Production when constructing [Wonder] buildings [in this city]"
+        	"[+50]% Production when constructing [Military] units [in this city]",
+        	"[-100]% Production when constructing [Wonder] buildings [in this city]"
         ]
     },
     {
@@ -17,66 +19,70 @@
         "cost":200,
         "requiredTech":"Civil Service",
         "uniques":[
-            "Only available <in cities without a [Focus on Military Production]>",
-            "Destroyed when the city is captured",
-            "Can be purchased for [50] [Culture] [in all cities]",
-
-            "[+50]% Production when constructing [Wonder] buildings [in this city]",
-            "Cannot build [Military] units"
+            	"Only available <in cities without a [Focus on Military Production]>",
+            	"Destroyed when the city is captured",
+            	"Can be purchased for [50] [Culture] [in all cities]",
+		"Unsellable <for [20] turns>",
+		
+        	"[+50]% Production when constructing [Wonder] buildings [in this city]",
+            	"Cannot build [Military] units"
         ]
     },
     {
         "name":"Focus on Feeding the People",
         "cost":200,
         "requiredTech":"Civil Service",
+	"percentStatBonus": {
+		"Production": -10,
+		"Food": 20,
+		"Gold": -10,
+	},
         "uniques":[
             	"Only available <in cities without a [Focus on Growing our Wealth]>",
             	"Destroyed when the city is captured",
 		"Can be purchased for [500] [Culture] [in all cities]",
-		"[+2 Food, -2 Gold] from all [Food] buildings",
-	        "[+5]% [Food] [in all cities] <before the [Industrial era]>",
-		"[-25]% [Food] [in this city] <after adopting [Autocracy]>",
-		"[-25]% [Food] [in this city] <after adopting [Order]>",
-	    	"[-25]% [Food] [in this city] <after adopting [Freedom]>",
-	        "[+5 Food] [in all cities] <after adopting [Order]>",
-	        "[+1] Unit Supply per [2] population [in this city] <after adopting [Autocracy]>",
-	        "[+3 Food] <in cities with a [Focus on Growing our Wealth]> <after adopting [Freedom]>",
-	    	"[+3 Food] <in cities with a [Focus on Wonder Construction]> <after adopting [Freedom]>",
-		"[+3 Food] <in cities with a [Focus on Social Exchange]> <after adopting [Freedom]>"
+		"Unsellable <for [20] turns>",
+		
+		"[+4 Food, -2 Gold, -2 Production] from all [Food] buildings",
         ]
     },
     {
         "name":"Focus on Growing our Wealth",
         "cost":200,
-		"percentStatBonus": {
-			"Production": -10,
-			"Food": -10,
-			"Culture": -5,
-		},
+	"percentStatBonus": {
+		"Production": -10,
+		"Food": -10,
+		"Culture": -5
+	},
         "requiredTech":"Civil Service",
         "uniques":[
-            "Only available <in cities without a [Focus on Feeding the People]>",
-            "Destroyed when the city is captured",
-            "Can be purchased for [50] [Culture] [in all cities]",
+            	"Only available <in cities without a [Focus on Feeding the People]>",
+		"Destroyed when the city is captured",
+		"Can be purchased for [50] [Culture] [in all cities]",
+		"Unsellable <for [20] turns>",
 
-			"[+25]% [Gold] [in this city] <before adopting [Commerce]>",
-			"[+5]% [Gold] [in all cities] <after adopting [Commerce]>",
-			"[-1 Culture, -2 Food, -2 Production, +5 Gold] per [2] population [in this city]"
+		"[+25]% [Gold] [in this city] <before adopting [Commerce]>",
+		"[+5]% [Gold] [in all cities] <after adopting [Commerce]>",
+		"[-1 Culture, -2 Food, -2 Production, +5 Gold] per [2] population [in this city]"
         ]
     }
     {
         "name":"Focus on National Production",
         "cost":200,
-		"percentStatBonus": {
-			"Production": 30,
-			"Food": -10,
-			"Gold": -20
-		},
+	"percentStatBonus": {
+		"Production": 40,
+		"Food": -5,
+		"Gold": -5,
+		"Culture": -10,
+		"Science": -10,
+		"Faith": -10
+	},
         "requiredTech":"Civil Service",
         "uniques":[
-            "Only available <in cities without a [Focus on Social Exchange]>",
-            "Destroyed when the city is captured",
-            "Can be purchased for [500] [Culture] [in all cities]",
+            	"Only available <in cities without a [Focus on Social Exchange]>",
+            	"Destroyed when the city is captured",
+            	"Can be purchased for [500] [Culture] [in all cities]",
+		"Unsellable <for [20] turns>"
 	]
     },
     {
@@ -92,13 +98,14 @@
 			"Faith": 10,
 		},
         "uniques":[
-            "Only available <in cities without a [Focus on National Production]>",
-            "Destroyed when the city is captured",
-            "Can be purchased for [500] [Culture] [in all cities]",
-
-			"[+1 Culture, +1 Faith] from all [Science] buildings",
-			"[+1 Faith, +1 Science] from all [Culture] buildings",
-			"[+1 Culture, +1 Science] from all [Faith] buildings"
+            	"Only available <in cities without a [Focus on National Production]>",
+		"Destroyed when the city is captured",
+            	"Can be purchased for [500] [Culture] [in all cities]",
+		"Unsellable <for [20] turns>",
+		
+		"[+1 Culture, +1 Faith] from all [Science] buildings",
+		"[+1 Faith, +1 Science] from all [Culture] buildings",
+		"[+1 Culture, +1 Science] from all [Faith] buildings"
         ]
     }
 ]
