@@ -24,7 +24,7 @@
 		"Unsellable <for [20] turns>",
 		
         	"[+50]% Production when constructing [Wonder] buildings [in this city]",
-            	"Cannot build [Military] units"
+            	"Cannot build [Military] units <in cities with a [Focus on Wonder Construction]>"
         ]
     },
     {
