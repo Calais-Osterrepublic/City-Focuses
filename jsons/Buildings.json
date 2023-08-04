@@ -9,7 +9,6 @@
             	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 	
-            
         	"[+50]% Production when constructing [Military] units [in this city]",
         	"[-100]% Production when constructing [Wonder] buildings [in this city]"
         ]
@@ -33,27 +32,22 @@
         "cost":200,
         "requiredTech":"Civil Service",
 	"percentStatBonus": {
-		"production": -10,
-		"food": 20,
-		"gold": -10,
+		"food": 20
 	},
         "uniques":[
             	"Only available <in cities without a [Focus on Growing our Wealth]>",
             	"Destroyed when the city is captured",
 		"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
-		
+
+		"[-10]% [Production] [in this city]",
+		"[-10]% [Gold] [in this city]",
 		"[+4 Food, -2 Gold, -2 Production] from all [Food] buildings",
         ]
     },
     {
         "name":"Focus on Growing our Wealth",
         "cost":200,
-	"percentStatBonus": {
-		"production": -10,
-		"food": -10,
-		"culture": -5
-	},
         "requiredTech":"Civil Service",
         "uniques":[
             	"Only available <in cities without a [Focus on Feeding the People]>",
@@ -61,6 +55,9 @@
 		"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 
+		"[-10]% [Food] [in this city]",
+		"[-10]% [Production] [in this city]",
+		"[-5]% [Culture] [in this city]",
 		"[+25]% [Gold] [in this city] <before adopting [Commerce]>",
 		"[+5]% [Gold] [in all cities] <after adopting [Commerce]>",
 		"[-1 Culture, -2 Food, -2 Production, +5 Gold] per [2] population [in this city]"
@@ -91,19 +88,19 @@
         "cost":200,
         "requiredTech":"Civil Service",
 		"percentStatBonus": {
-			"production": -20,
-			"food": -20,
-			"gold": -20,
 			"culture": 10,
 			"science": 10,
-			"faith": 10,
+			"faith": 10
 		},
         "uniques":[
             	"Only available <in cities without a [Focus on National Production]>",
 		"Destroyed when the city is captured",
             	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
-		
+
+		"[-20]% [Production] [in this city]",
+		"[-20]% [Food] [in this city]",
+		"[-20]% [Gold] [in this city]",
 		"[+1 Culture, +1 Faith] from all [Science] buildings",
 		"[+1 Faith, +1 Science] from all [Culture] buildings",
 		"[+1 Culture, +1 Science] from all [Faith] buildings"
