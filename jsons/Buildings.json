@@ -6,7 +6,7 @@
         "uniques":[
             	"Only available <in cities without a [Focus on Wonder Construction]>",
             	"Destroyed when the city is captured",
-            	"Can be purchased for [50] [Culture] [in all cities]",
+            	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 	
             
@@ -21,7 +21,7 @@
         "uniques":[
             	"Only available <in cities without a [Focus on Military Production]>",
             	"Destroyed when the city is captured",
-            	"Can be purchased for [50] [Culture] [in all cities]",
+            	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 		
         	"[+50]% Production when constructing [Wonder] buildings [in this city]",
@@ -40,7 +40,7 @@
         "uniques":[
             	"Only available <in cities without a [Focus on Growing our Wealth]>",
             	"Destroyed when the city is captured",
-		"Can be purchased for [500] [Culture] [in all cities]",
+		"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 		
 		"[+4 Food, -2 Gold, -2 Production] from all [Food] buildings",
@@ -58,7 +58,7 @@
         "uniques":[
             	"Only available <in cities without a [Focus on Feeding the People]>",
 		"Destroyed when the city is captured",
-		"Can be purchased for [50] [Culture] [in all cities]",
+		"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 
 		"[+25]% [Gold] [in this city] <before adopting [Commerce]>",
@@ -70,19 +70,20 @@
         "name":"Focus on National Production",
         "cost":200,
 	"percentStatBonus": {
-		"Production": 40,
-		"Food": -5,
-		"Gold": -5,
-		"Culture": -10,
-		"Science": -10,
-		"Faith": -10
+		"Production": 25
 	},
         "requiredTech":"Civil Service",
         "uniques":[
             	"Only available <in cities without a [Focus on Social Exchange]>",
             	"Destroyed when the city is captured",
-            	"Can be purchased for [500] [Culture] [in all cities]",
-		"Unsellable <for [20] turns>"
+            	"Can be purchased for [100] [Culture] [in all cities]",
+		"Unsellable <for [20] turns>",
+
+		"[-5]% [Food] [in this city]",
+		"[-5]% [Gold] [in this city]",
+		"[-5]% [Culture] [in this city]",
+		"[-5]% [Science] [in this city]",
+		"[-5]% [Faith] [in this city]"
 	]
     },
     {
@@ -100,7 +101,7 @@
         "uniques":[
             	"Only available <in cities without a [Focus on National Production]>",
 		"Destroyed when the city is captured",
-            	"Can be purchased for [500] [Culture] [in all cities]",
+            	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 		
 		"[+1 Culture, +1 Faith] from all [Science] buildings",
