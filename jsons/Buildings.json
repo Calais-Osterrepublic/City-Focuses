@@ -33,9 +33,9 @@
         "cost":200,
         "requiredTech":"Civil Service",
 	"percentStatBonus": {
-		"Production": -10,
-		"Food": 20,
-		"Gold": -10,
+		"production": -10,
+		"food": 20,
+		"gold": -10,
 	},
         "uniques":[
             	"Only available <in cities without a [Focus on Growing our Wealth]>",
@@ -50,9 +50,9 @@
         "name":"Focus on Growing our Wealth",
         "cost":200,
 	"percentStatBonus": {
-		"Production": -10,
-		"Food": -10,
-		"Culture": -5
+		"production": -10,
+		"food": -10,
+		"culture": -5
 	},
         "requiredTech":"Civil Service",
         "uniques":[
@@ -70,7 +70,7 @@
         "name":"Focus on National Production",
         "cost":200,
 	"percentStatBonus": {
-		"Production": 25
+		"production": 25
 	},
         "requiredTech":"Civil Service",
         "uniques":[
@@ -91,12 +91,12 @@
         "cost":200,
         "requiredTech":"Civil Service",
 		"percentStatBonus": {
-			"Production": -20,
-			"Food": -20,
-			"Gold": -20,
-			"Culture": 10,
-			"Science": 10,
-			"Faith": 10,
+			"production": -20,
+			"food": -20,
+			"gold": -20,
+			"culture": 10,
+			"science": 10,
+			"faith": 10,
 		},
         "uniques":[
             	"Only available <in cities without a [Focus on National Production]>",
