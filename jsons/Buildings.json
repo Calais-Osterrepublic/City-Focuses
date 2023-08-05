@@ -42,7 +42,7 @@
 
 		"[-10]% [Production] [in this city]",
 		"[-10]% [Gold] [in this city]",
-		"[+4 Food, -2 Gold, -2 Production] from all [Food] buildings",
+		"[+4 Food, -4 Gold] from all [Food] buildings",
         ]
     },
     {
@@ -55,19 +55,16 @@
 		"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 
-		"[-10]% [Food] [in this city]",
-		"[-10]% [Production] [in this city]",
-		"[-5]% [Culture] [in this city]",
-		"[+25]% [Gold] [in this city] <before adopting [Commerce]>",
-		"[+5]% [Gold] [in all cities] <after adopting [Commerce]>",
-		"[-1 Culture, -2 Food, -2 Production, +5 Gold] per [2] population [in this city]"
-        ]
+		"[-20]% [Food] [in this city]",
+		"[+20]% [Gold] [in this city]",
+		"[-2 Food, +2 Gold] from all [Gold] buildings"
+	]
     }
     {
         "name":"Focus on National Production",
         "cost":200,
 	"percentStatBonus": {
-		"production": 25
+		"production": 30
 	},
         "requiredTech":"Civil Service",
         "uniques":[
@@ -76,11 +73,9 @@
             	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 
-		"[-5]% [Food] [in this city]",
-		"[-5]% [Gold] [in this city]",
-		"[-5]% [Culture] [in this city]",
-		"[-5]% [Science] [in this city]",
-		"[-5]% [Faith] [in this city]"
+		"[-10]% [Culture] [in this city]",
+		"[-10]% [Science] [in this city]",
+		"[-10]% [Faith] [in this city]"
 	]
     },
     {
@@ -98,9 +93,7 @@
             	"Can be purchased for [100] [Culture] [in all cities]",
 		"Unsellable <for [20] turns>",
 
-		"[-20]% [Production] [in this city]",
-		"[-20]% [Food] [in this city]",
-		"[-20]% [Gold] [in this city]",
+		"[-30]% [Production] [in this city]",
 		"[+1 Culture, +1 Faith] from all [Science] buildings",
 		"[+1 Faith, +1 Science] from all [Culture] buildings",
 		"[+1 Culture, +1 Science] from all [Faith] buildings"
